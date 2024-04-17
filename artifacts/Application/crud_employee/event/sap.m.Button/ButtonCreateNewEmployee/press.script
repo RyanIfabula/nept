@@ -1,0 +1,8 @@
+App.to(DataEmployee);
+
+var data = {};
+modelDataEmployee.setData(data);
+
+ButtonUpdate.setVisible(false);
+ButtonDelete.setVisible(false);
+ButtonSubmit.setVisible(true);

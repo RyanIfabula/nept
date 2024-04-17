@@ -1,0 +1,23 @@
+{
+	"id": "b4978e09-cda6-45d1-9c06-66f6f161e395",
+	"createdAt": "2024-01-24T05:21:43.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"url": "http://8.215.26.103",
+	"name": "Neptune DXP Linux Server",
+	"ver": null,
+	"description": "Test Remote",
+	"role": "DEV",
+	"username": "admin",
+	"password": "33cdd4b5dad5aac5",
+	"type": "",
+	"sapClient": null,
+	"useClientDeploy": false,
+	"token": "",
+	"monitoringName": null,
+	"monitoringEnabled": false,
+	"tlsAllowUntrusted": false,
+	"preRequestHookId": null,
+	"package": "db3eeaf0-493a-4bc4-a541-708c97862137"
+}

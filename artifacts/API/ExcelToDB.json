@@ -1,0 +1,88 @@
+{
+	"id": "ada0c541-3e15-4a11-8d91-515bad3e94f2",
+	"createdAt": "2024-01-09T13:03:16.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "315b1e14-7303-41c3-cc72-c75c1809a385",
+			"method": "POST",
+			"path": "/CreateDataTODatabase",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "98be16f7-9a03-4d9b-9436-a5f4048694cf",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "e6672ebc-c2d3-4365-ffa7-92d8152cec73",
+							"name": "DataRequest",
+							"objectType": "array"
+						}
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"items": [],
+					"name": "DataRequest"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "96ca847d-ab56-442c-8e6e-a68d2fc3f67e"
+		},
+		{
+			"id": "29e93452-431e-4c64-9a45-3cec98a48720",
+			"method": "DELETE",
+			"path": "/DeleteAllData",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "c3e49bd0-c759-48a3-97aa-ef5335d04c05"
+		}
+	],
+	"definitions": [
+		{
+			"id": "8391ea25-244a-491b-9b14-cd33fe5d9eea",
+			"name": "DataRequest",
+			"description": "",
+			"isInclude": false,
+			"properties": []
+		}
+	],
+	"documentation": [],
+	"name": "ExcelToDB",
+	"endpoint": "/public/serverscript/exceltodb",
+	"ver": "24.1.10.1422",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": true,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": true,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "db3eeaf0-493a-4bc4-a541-708c97862137",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

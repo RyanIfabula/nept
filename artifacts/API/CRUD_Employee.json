@@ -1,0 +1,364 @@
+{
+	"id": "6c497f7f-2511-419b-9bbb-7ea3b993be64",
+	"createdAt": "2023-12-19T09:24:17.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "7d7f2ab6-0cbf-4792-901a-823790a48537",
+			"path": "/dataemployee",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "dataemployee"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "e1a8a861-1e11-426f-8a50-ce75c55fc8cc",
+			"path": "/dataemployee",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "dataemployee"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "dataemployee"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "d258f242-e2bf-4165-8c6f-2f5f75d3458f",
+			"path": "/dataemployee",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "dataemployee"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "dataemployee"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "d7fca315-ac0a-425f-b915-960c0d46e918",
+			"path": "/dataemployee",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "dataemployee"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "48744b4d-aa72-4add-9668-9e3240e3c5af",
+			"path": "/dataemployee/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "3412da0f-5552-4bde-805a-75279025fde6",
+			"name": "dataemployee",
+			"properties": [
+				{
+					"id": "273cddb9-8c6e-4e05-9e67-f787e9fc61cf",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "9d9c51c3-b4a3-48f0-82a7-f7e5f8087939",
+					"parent": "",
+					"name": "Firstname",
+					"objectType": "string"
+				},
+				{
+					"id": "a0bf9f1e-9aed-4f2f-a4a3-3e6a24c79994",
+					"parent": "",
+					"name": "LastName",
+					"objectType": "string"
+				},
+				{
+					"id": "4a8f6aa1-66fa-4743-bdfb-effb692d3fd6",
+					"parent": "",
+					"name": "Birth",
+					"objectType": "string"
+				},
+				{
+					"id": "3b851dc2-a5ed-44fc-a9c4-36f5cb23652b",
+					"parent": "",
+					"name": "Address",
+					"objectType": "string"
+				},
+				{
+					"id": "d2a34257-e96e-4210-9907-1f1f7b026eb8",
+					"parent": "",
+					"name": "Position",
+					"objectType": "string"
+				},
+				{
+					"id": "ac4b46cb-2226-4bdb-bbfe-a9179deb5a3b",
+					"parent": "",
+					"name": "Email",
+					"objectType": "string"
+				},
+				{
+					"id": "8ca2cec9-ac1d-4bcc-8833-f8bc799f6e13",
+					"parent": "",
+					"name": "Photo",
+					"objectType": "string"
+				},
+				{
+					"id": "95c710e6-ded8-4c1f-b5a1-053b0fdc4581",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "daf860cc-8ba7-4081-b6a0-6c65ab8985e2",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "5a04bf5a-d2dd-4165-a7aa-72e529492ba8",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "0ddc248f-b090-416e-be8d-6d5ca9826843",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "02c11c35-ae69-4e31-949b-795fb5d85382",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "095c9dcd-ea1c-4c01-b33b-a364cde455fb",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "9c3457a8-ed20-4028-993f-8fd67bfb1e10",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "85d81226-a23d-4560-b09b-b75698de8d4d",
+			"name": "count",
+			"properties": [
+				{
+					"id": "98edcc61-3290-4540-9691-4b8338a7e872",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "CRUD_Employee",
+	"endpoint": "/api/entity",
+	"ver": "23.12.19.1624",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "db3eeaf0-493a-4bc4-a541-708c97862137",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

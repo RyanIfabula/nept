@@ -1,0 +1,26 @@
+{
+	"id": "96ca847d-ab56-442c-8e6e-a68d2fc3f67e",
+	"createdAt": "2024-01-09T12:56:36.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "56fd69c3-f1bf-48d3-860d-7c249783d21e",
+			"name": "testdataexcel",
+			"contextname": "testdataexcel"
+		}
+	],
+	"apis": [],
+	"name": "CreateData",
+	"ver": "24.1.11.1726",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "e7e37ebd-9d6c-4213-9e32-6e05a01a4f87",
+	"package": "db3eeaf0-493a-4bc4-a541-708c97862137"
+}

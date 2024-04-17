@@ -1,0 +1,122 @@
+{
+	"id": "db3eeaf0-493a-4bc4-a541-708c97862137",
+	"createdAt": "2023-12-18T07:08:06.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/RyanIfabula/nept.git"
+	},
+	"name": "Employee",
+	"description": null,
+	"ver": "24.4.17.1110",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "d6064186-63cb-49e4-bb18-ade59650abd6",
+			"application": "dummy_employee",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "db3eeaf0-493a-4bc4-a541-708c97862137"
+			}
+		},
+		{
+			"id": "d4aa072e-9c2e-4a99-bc23-b7b8cfaf8d8c",
+			"application": "crud_employee",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "db3eeaf0-493a-4bc4-a541-708c97862137"
+			}
+		},
+		{
+			"id": "59aac6ed-5c38-437e-a75f-a1bfa5870ed9",
+			"application": "testcameramobile",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "db3eeaf0-493a-4bc4-a541-708c97862137"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "ada0c541-3e15-4a11-8d91-515bad3e94f2",
+			"name": "ExcelToDB",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "6c497f7f-2511-419b-9bbb-7ea3b993be64",
+			"name": "CRUD_Employee",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "eb694496-a5e6-4faa-bbbe-04ea904b6807",
+			"name": "dataemployee",
+			"description": null
+		},
+		{
+			"id": "56fd69c3-f1bf-48d3-860d-7c249783d21e",
+			"name": "testdataexcel",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "c3e49bd0-c759-48a3-97aa-ef5335d04c05",
+			"name": "DeleteAllData",
+			"description": null
+		},
+		{
+			"id": "96ca847d-ab56-442c-8e6e-a68d2fc3f67e",
+			"name": "CreateData",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "e7e37ebd-9d6c-4213-9e32-6e05a01a4f87",
+			"name": "CreateDataFromExcel",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "6843da53-7434-41ae-bc0a-f3e32ce681ac",
+			"description": null,
+			"name": "TestCamera"
+		}
+	],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [
+		{
+			"id": "b4978e09-cda6-45d1-9c06-66f6f161e395",
+			"name": "Neptune DXP Linux Server",
+			"description": "Test Remote"
+		}
+	],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

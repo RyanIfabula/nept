@@ -1,0 +1,26 @@
+{
+	"id": "c3e49bd0-c759-48a3-97aa-ef5335d04c05",
+	"createdAt": "2024-01-10T07:20:16.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "56fd69c3-f1bf-48d3-860d-7c249783d21e",
+			"name": "testdataexcel",
+			"contextname": "testdataexcel"
+		}
+	],
+	"apis": [],
+	"name": "DeleteAllData",
+	"ver": "24.1.10.1422",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "e7e37ebd-9d6c-4213-9e32-6e05a01a4f87",
+	"package": "db3eeaf0-493a-4bc4-a541-708c97862137"
+}

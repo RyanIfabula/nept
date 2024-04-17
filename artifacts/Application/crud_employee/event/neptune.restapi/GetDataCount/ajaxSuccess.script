@@ -1,0 +1,17 @@
+var data = modelModelObject_TotalCount.getData();
+
+//console.log(data);
+CurrentIndex.setText(1);
+
+var tambahan = 0;
+var limit = 3;
+
+if((parseInt(data.count) % limit > 0)) {
+
+    tambahan = tambahan + 1;
+
+}
+
+TotalPage.setText("/" + (parseInt((data.count / limit) + tambahan).toFixed(0)));
+
+InvisibleTotalCount.setText(data.count);

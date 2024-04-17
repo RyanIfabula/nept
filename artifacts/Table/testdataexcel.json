@@ -1,0 +1,52 @@
+{
+	"id": "56fd69c3-f1bf-48d3-860d-7c249783d21e",
+	"createdAt": "2024-01-09T14:56:14.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "d923fe51-7fee-4ec4-9715-d5fd752ec72e",
+			"fieldName": "EEID",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "3f766473-3b8f-4ad0-b01b-9c26c826d93d",
+			"fieldName": "FullName",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c07b1340-12c6-4841-cf6e-b5d6c9e0e1f5",
+			"fieldName": "JobTitle",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "efe71a9c-0504-4a25-f994-4b5f39ab348d",
+			"fieldName": "BusinessUnit",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "08407e95-2adf-465f-b44a-e87cf309c8ab",
+			"fieldName": "Age",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "testdataexcel",
+	"description": null,
+	"ver": "24.1.10.1414",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "db3eeaf0-493a-4bc4-a541-708c97862137",
+	"rolesRead": [],
+	"rolesWrite": []
+}
